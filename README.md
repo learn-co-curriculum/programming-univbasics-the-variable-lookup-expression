@@ -45,7 +45,7 @@ MAMA = :the_person_in_front_of_me_who_keeps_saying_mama
 
 > **ASIDE**: We snuck in a new type of constant just then called a `Symbol`.
 > It's like a name, but it starts with a `:`.  We'll learn more about them
-> later, but we want to excite you about constants that _arent'_ simple
+> later, but we want to excite you about constants that _aren't_ simple
 > numbers!
 
 And then at some random moment the baby repeats the (bare word) name: `MAMA`.
@@ -91,7 +91,7 @@ fact, in the rest of this module, **everything** will be an expression of some
 sort. It turns out we can write programs of high levels of sophistication
 without using anything more than expressions.
 
-> **FUTURE DIRECTIONS** Whole programming languages are build around executing
+> **FUTURE DIRECTIONS** Whole programming languages are built around executing
 > by means of evaluating expressions! Languages that work this way are called
 > "functional languages" and they are some of the first programming languages
 > ever created.
