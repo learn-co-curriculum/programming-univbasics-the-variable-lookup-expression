@@ -85,7 +85,7 @@ that `a` is `4`.
 |Expression|Real-Life Conversation|Ruby Conversation|
 |----------|----------------------|-----------------|
 |Value Expression|Parent points "Doggie"|`4 #=> 4`|
-|Assignment Expression|"Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a= 4 #=> 4`|
+|Assignment Expression|"Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a = 4 #=> 4`|
 |Variable Lookup|Child Says: "Doggie!"|`a #=> 4`|
 
 ## Conclusion
