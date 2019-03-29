@@ -56,16 +56,18 @@ bare-words so that they can have richer experiences in the world.
 
 Consider this scenario. Look for the _essential three_ expressions in here.
 
-Parent: See the doggie? That’s a doggie.
-Child: Doggie?
-Parent: That’s right, that’s a doggie. Doggies say “Woof-woof!”
-Child: Doggie?
-Parent: Right. Doggie.
+<!-- Don't trim trailing whitespace, used to force newline -->
+
+Parent: See the doggie? That’s a doggie.  
+Child: Doggie?  
+Parent: That’s right, that’s a doggie. Doggies say “Woof-woof!”  
+Child: Doggie?  
+Parent: Right. Doggie.  
 
 _Some time later_
 
-Child: Doggie!
-Parent: That’s right. Doggie!
+Child: Doggie!  
+Parent: That’s right. Doggie!  
 
 If you think about it, most of children's education until early elementary
 school is giving them thousands of assignment expressions so they can
