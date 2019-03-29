@@ -90,7 +90,7 @@ that `a` is `4`.
 
 ## Conclusion
 
-With the _essential three_ expressions under you control, we're going to start
+With the _essential three_ expressions under your control, we're going to start
 rapidly building up the richness of things you can do using expressions. In
 fact, in the rest of this module, **everything** will be an expression of some
 sort. It turns out we can write programs of high levels of sophistication
