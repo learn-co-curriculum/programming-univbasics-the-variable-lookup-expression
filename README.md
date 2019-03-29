@@ -48,6 +48,7 @@ MAMA = :the_person_in_front_of_me_who_keeps_saying_mama
 > later, but we want to excite you about constants that _aren't_ simple
 > numbers!
 
+
 And then at some random moment the baby repeats the (bare word) name: `MAMA`.
 Suddenly the parents stream tears of joy. With a bit more practice baby will be
 learning from "Sesame Street," from parents and friends, to grow their world of
@@ -79,6 +80,8 @@ Ruby. The tool for this is the _assignment expression_
 Let’s compare teaching a baby a four-legged animal's name and teaching Ruby
 that `a` is `4`.
 
+|Expression|Real-Life Conversation|Ruby Conversation|
+|----------|----------------------|-----------------|
 |Value Expression|Parent points "Doggie"|4 #=> 4|
 |Assignment Expression|"Doggie" = (picture of dog)|a= 4 #=> 4| 
 |Variable Lookup|Child Says: "Doggie!"|a #=> 4| 
