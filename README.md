@@ -7,7 +7,7 @@
 ## Introduction
 
 The final of our _essential three_ expressions is the variable lookup
-expression. Like the _constant expession_, it rounds out the “essential three”
+expression. Like the _constant expression_, it rounds out the “essential three”
 by being boring, yet profound.
 
 It retrieves the value that we set with the _assignment expression_ from the
