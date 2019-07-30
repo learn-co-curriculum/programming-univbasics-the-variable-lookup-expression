@@ -11,21 +11,21 @@ expression. Like the _constant expression_, it rounds out the “essential three
 by being boring, yet profound.
 
 It retrieves the value that we set with the _assignment expression_ from the
-name or "bare word" we assigned.
-
-> **NOTE**: When we say "variable lookup" that also includes symbolic
-> constants.
+name we assigned to it. It looks up the variable's definition in the
+dictionary, to use the metaphor from the previous lesson. Or it shakes out the
+evaluated result of the expression that was put in the labeled box, to use the
+other metaphor from the previous lesson.
 
 ## Define the Variable Lookup Expression
 
-To lookup the value in a variable we simply type it.
+To lookup the value in a variable we simply type the variable name's name in.
 
 ```ruby
 # Assignment expression that returns 32
-age = 32 #=> 32
+age = 32 #=> Rember: return value of assignment is what's to the right of the =, 32
 
 # Type in the name
-age #=> 32
+age #=> 32 (the value of the expression that was assigned to the variable)
 ```
 
 That’s it. The values we associate with the assignment expression can be gotten
@@ -34,25 +34,15 @@ constant’s name.
 
 ## Variable Lookup as Conversation
 
-Think about, again, a baby learning to talk. They learn the constant or value
-of their parent (_constant expression_). The parent repeats a thousand times
-their (bare word) name: `MAMA` or `DADA`. Eventually a magical thing happens in
-the baby's brain and they realize...
+In the previous lesson we talked about a parent and a baby. A parent repeats
+their name hundreds of times to get the baby to assign their face to the
+variable `mama`. When the baby first sees that face again and says "`mama`!"
+the parent has successfully taught the child "variable lookup." Although there
+are no pages in baby journals for "Baby's first Variable Lookup."
 
-```ruby
-MAMA = :the_person_in_front_of_me_who_keeps_saying_mama
-```
-
-> **ASIDE**: We snuck in a new type of constant just then called a `Symbol`.
-> It's like a name, but it starts with a `:`.  We'll learn more about them
-> later, but we want to excite you about constants that _aren't_ simple
-> numbers!
-
-
-And then at some random moment the baby repeats the (bare word) name: `MAMA`.
-Suddenly the parents stream tears of joy. With a bit more practice baby will be
-learning from "Sesame Street," from parents and friends, to grow their world of
-bare-words so that they can have richer experiences in the world.
+If you think about it, most of children's education until early elementary
+school is giving them thousands of assignment expressions so they can
+participate in the world: "Red," "one," "eleven," "far."
 
 Consider this scenario. Look for the _essential three_ expressions in here.
 
@@ -69,16 +59,6 @@ _Some time later_
 Child: Doggie!  
 Parent: That’s right. Doggie!  
 
-If you think about it, most of children's education until early elementary
-school is giving them thousands of assignment expressions so they can
-participate in the world: "Red," "one," "eleven," "far."
-
-It turns out, Ruby is no different.
-
-In a brand new session of IRB, Ruby knows about rules of expression evaluation,
-some operators, and some special words. Everything else you have to "load into"
-Ruby. The tool for this is the _assignment expression_
-
 Let’s compare teaching a baby a four-legged animal's name and teaching Ruby
 that `a` is `4`.
 
@@ -86,7 +66,7 @@ that `a` is `4`.
 |----------|----------------------|-----------------|
 |Value Expression|Parent points "Doggie"|`4 #=> 4`|
 |Assignment Expression|"Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a = 4 #=> 4`|
-|Variable Lookup|Child Says: "Doggie!"|`a #=> 4`|
+|Variable Lookup|Child sees the dog and says "Doggie!"|`a #=> 4`|
 
 ## Conclusion
 
@@ -101,7 +81,5 @@ without using anything more than expressions.
 > "functional languages" and they are some of the first programming languages
 > ever created.
 
-Lets expand the world of _constants_ we know about beyond numbers. While
-they're handy when we're learning, there's a lot more to say about the world!
-
-
+Thus far all our data have been very simple numbers. Let's learn While they're
+handy when we're learning, there's a lot more to say about the world!
