@@ -7,22 +7,28 @@
 ## Introduction
 
 The final of our _essential three_ expressions is the variable lookup
-expression. Like the _constant expression_, it rounds out the “essential three”
+expression. Like the _constant expression_, it rounds out the "essential three"
 by being boring, yet profound.
 
 It retrieves the value that we set with the _assignment expression_ from the
-name we assigned to it. It looks up the variable's definition in the
-dictionary, to use the metaphor from the previous lesson. Or it shakes out the
-evaluated result of the expression that was put in the labeled box, to use the
-other metaphor from the previous lesson.
+name we assigned to it.
+
+It looks up the variable's definition in the dictionary, to use the metaphor from the previous lesson.
+
+![Dictionary lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87B_VariableNamingMetaphors.png)
+
+Or it shakes out the evaluated result of the expression that was put in the
+labeled box, to use the other metaphor from the previous lesson.
+
+![Box shake out](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_87D_VariableNamingMetaphors.png)
 
 ## Define the Variable Lookup Expression
 
-To lookup the value in a variable we simply type the variable name's name in.
+To look up the value in a variable we simply type the variable name's name in.
 
 ```ruby
 # Assignment expression that returns 32
-age = 32 #=> Rember: return value of assignment is what's to the right of the =, 32
+age = 32 #=> Rember: return value of an assignment is what's to the right of the =, 32
 
 # Type in the name
 age #=> 32 (the value of the expression that was assigned to the variable)
@@ -34,13 +40,15 @@ constant’s name.
 
 ## Variable Lookup as Conversation
 
-In the previous lesson we talked about a parent and a baby. A parent repeats
+In the previous lesson, we talked about a parent and a baby. A parent repeats
 their name hundreds of times to get the baby to assign their face to the
-variable `mama`. When the baby first sees that face again and says "`mama`!"
+variable `ma-ma`. When the baby first sees that face again and says "`ma-ma`!"
 the parent has successfully taught the child "variable lookup." Although there
-are no pages in baby journals for "Baby's first Variable Lookup."
+are no pages in baby journals for "Baby's First Variable Lookup."
 
-If you think about it, most of children's education until early elementary
+![Successful Lookup](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-assignment-expression/Image_55_Mama-Baby_4.png)
+
+If you think about it, most of childhood education until early elementary
 school is giving them thousands of assignment expressions so they can
 participate in the world: "Red," "one," "eleven," "far."
 
@@ -50,7 +58,7 @@ Consider this scenario. Look for the _essential three_ expressions in here.
 
 Parent: See the doggie? That’s a doggie.  
 Child: Doggie?  
-Parent: That’s right, that’s a doggie. Doggies say “Woof-woof!”  
+Parent: That’s right, that’s a doggie. Doggies say "Woof-woof!"  
 Child: Doggie?  
 Parent: Right. Doggie.  
 
@@ -77,7 +85,7 @@ sort. It turns out we can write programs of high levels of sophistication
 without using anything more than expressions.
 
 > **FUTURE DIRECTIONS**: Whole programming languages are built around executing
-> by means of evaluating expressions! Languages that work this way are called
+> through evaluating expressions! Languages that work this way are called
 > "functional languages" and they are some of the first programming languages
 > ever created.
 
